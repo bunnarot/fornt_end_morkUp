@@ -1,17 +1,14 @@
-<!doctype html>
-	<html lang="{{ app()->getLocale() }}">
-	<head>
-			<meta charset="utf-8">
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<title>Laravel</title>
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/…/3.3…/css/bootstrap.min.css">
-			<script src="https://ajax.googleapis.com/…/li…/jquery/3.2.1/jquery.min.js"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/…/bootstrap.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
-<!-- Fonts -->
-<!-- Styles -->
-	<style>
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<style>
 		html, body {
 		background-color: #FFFFFF;
 		color: #000000;
@@ -21,19 +18,18 @@
 		margin: 0;
 		}
 	</style>
-	</head>
-		<body>
-		<nav class="navbar navbar-default">
+</head>
+<body>
+	<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="#">Car Park Management System</a>
 				</div>
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">หน้าหลัก</a></li>
-						<li><a href="#">จัดการผู้ใช้งาน</a></li>
-						<li><a href="#">จัดการแผนที่</a></li>
-						<li><a href="#">จัดการตำแหน่ง</a></li>
-						<li><a href="#">จัดการอาเอฟไอดี</a></li>
+						<li class="active"><a href="home1.php">หน้าหลัก</a></li>
+						<li><a href="user.php">จัดการผู้ใช้งาน</a></li>
+						<li><a href="location.php">จัดการแผนที่</a></li>
+						<li><a href="rfid.php">จัดการอาเอฟไอดี</a></li>
 					</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#"> <span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -41,7 +37,6 @@
 				</ul>
 			</div>
 		</nav>
-
 	
 			<div class="slide-docs-nav">
 				<div class="col-sm-5" >
@@ -64,5 +59,7 @@
 				</div>
 			</div>
 		</div>
-	</body>
+
+
+</body>
 </html>
