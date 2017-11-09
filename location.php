@@ -7,7 +7,6 @@
 						<div class="row" >
 							<ul class="nav nav-pills nav-stacked" style="border">
 								<li><a href="#" data-toggle="modal" data-target="#myModal" >เพิ่มแผนที่ </a><li>
-		
 								<li class="dropdown community-dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">เลือกแผนที่<span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
 
@@ -16,8 +15,6 @@
 								<li><a href="#">map3</a></li>
 
 							</ul>
-
-	
 
 	<div id="myModal" class="modal fade" role="dialog">
 		<div class="modal-dialog modal-lg">
@@ -34,7 +31,7 @@
 
             <form action="javascript:void(0)">
 
-              <div class="col-md-5">
+              <div class="col-md-3">
                 <div class="form-group">
                   <input type="hidden" name="locate_image">
                   <input type="file"
@@ -45,21 +42,21 @@
                 </div>
               </div>
 
-              <div class="col-md-7">
+              <div class="col-md-6">
                 <div class="panel panel-default">
                   <div class="panel-body">
                     <div class="form-inline">
 
                       <div class="form-group">
                         <label for="locate_name">ชื่อแผนที่:</label>
-                        <input type="text" class="form-control" id="locate_name" placeholder="กรุณาระบุชื่อแผนที่" required>
+                        <input type="text" class="form-control" id="locate_name" placeholder="กรุณาระบุชื่อแผนที่" required><br><br>
                       </div>
 
                       <div class="form-group">
                         <label for="locate_floor">&nbsp;ชั้น:</label>
-                        <input type="number" class="form-control" id="locate_floor" placeholder="กรุณาระบุชั้น" required>
+                        <input type="number" class="form-control" id="locate_floor" placeholder="กรุณาระบุชั้น" required><br><br>
                       </div>
-
+                       
                       <button type="submit" id="submit" class="btn btn-success">เพิ่ม</button>
                       <button type="reset" id="reset" class="btn btn-danger">ล้าง</button>
 

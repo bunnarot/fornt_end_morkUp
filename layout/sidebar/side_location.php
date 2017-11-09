@@ -1,4 +1,4 @@
-<div class="col-md-2">
+<div class="col-md-2 sidenav">
 	<div class="slide-docs-nav">
 		<ul class="nav nav-pills nav-stacked" style="border">
 			<li class="active"></a></li>

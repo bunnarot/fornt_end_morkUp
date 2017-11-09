@@ -1,7 +1,7 @@
 <?php require_once "layout/header.php";?>
 	<?php require_once "layout/navbar.php"; ?>
 		
-
+			<div class="container-fluid text-center">  
 				<div class="col-sm-5" >
 					<div class="col-sm-4">
 						<div class="row" >
@@ -20,7 +20,7 @@
 						</div>
 					</div>
 				</div>
-			
+			</div>
 
 <?php require_once "layout/footer.php"; ?>
 
