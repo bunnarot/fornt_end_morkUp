@@ -1,21 +1,85 @@
 <?php require_once "layout/header.php";?>
 	<?php require_once "layout/navbar.php"; ?>
-		
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style >
+    .icon-bar {
+    width: 50px;
+    background-color: #555;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+
+.topright {  position: relative;
+    position: absolute;
+   top:10%;
+    right: 1px;
+    font-size: 10px; 
+}
+</style>
+          <div class="container">
+            <div class="topright">
+          <!--     <br><br><br><br><br><br> -->
+               <div class="icon-bar">
+                <a href="#"><i class="fa fa-search"></i></a> 
+                <a href="#"><i class="fa fa-plus-square-o"></i></a> 
+                
+                <a href="#"><i class="glyphicon glyphicon-refresh w3-spin "></i></a> 
+               </div> 
+              </div>
+          </div>
 
 				<div class="col-sm-5" >
 					<div class="col-sm-4">
 						<div class="row" >
+
 							<ul class="nav nav-pills nav-stacked" style="border">
 								<li><a href="#" data-toggle="modal" data-target="#myModal" >เพิ่มแผนที่ </a><li>
-								<li class="dropdown community-dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">เลือกแผนที่<span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
+							
+                <li><a href="#" data-toggle="modal" data-target="#listModal" >แก้ไขตำแหน่งอุปกรณ์ </a><li>
 
-								<li><a href="#">map1</a></li>
-								<li><a href="#">map2</a></li>
-								<li><a href="#">map3</a></li>
-
+								
 							</ul>
 
+<div id="listModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+      <div class="modal-content">
+
+        <div class="modal-header">   
+           <h4 class="modal-title">กรุณาเลืกแผนที่เพื่อแก้ไข</h4>
+        </div>
+
+        <div class="modal-body">
+            <h1>เก็กคนหัวฆวยยยย!!!!</h1>
+         
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>  
+
+<!-- addMap -->
 	<div id="myModal" class="modal fade" role="dialog">
 		<div class="modal-dialog modal-lg">
 

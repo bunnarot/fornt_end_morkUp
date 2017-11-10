@@ -2,8 +2,8 @@
 	<?php require_once "layout/navbar.php"; ?>
 		
 			<div class="container-fluid text-center">  
-				<div class="col-sm-5" >
-					<div class="col-sm-4">
+				<div class="col-md-8 sidenav">
+					<div class="col-xs-2 sidenav">
 						<div class="row" >
 							<ul class="nav nav-pills nav-stacked" style="border">
 								<li class="active"></a></li>
