@@ -1,7 +1,6 @@
 <?php require_once "layout/header.php";?>
 	<?php require_once "layout/navbar.php"; ?>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style >
     .icon-bar {
@@ -68,10 +67,28 @@
         </div>
 
         <div class="modal-body">
-            <h1>เก็กคนหัวฆวยยยย!!!!</h1>
-         
-
-
+            <div class="row">
+              <div class="col-md-3">
+                <div class="panel panel-default">
+                  <div class="panel-body"><img src="//placehold.it/256x256" width="100%" alt=""></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="panel panel-default">
+                  <div class="panel-body"><img src="//placehold.it/256x256" width="100%" alt=""></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="panel panel-default">
+                  <div class="panel-body"><img src="//placehold.it/256x256" width="100%" alt=""></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="panel panel-default">
+                  <div class="panel-body"><img src="//placehold.it/256x256" width="100%" alt=""></div>
+                </div>
+              </div>
+            </div>
         </div>
 
       </div>
